@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physics AI Learning App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Physics Learning Hub</h1>
+  </header>
+
+  <main>
+    <!-- ផ្ទាំងមេរៀនសង្ខេប -->
+    <section class="lesson-card">
+      <h2>មេរៀន៖ ច្បាប់ញូតុន (Newton's Laws)</h2>
+      <p>ច្បាប់ទី២៖ កម្លាំងស្មើនឹងផលគុណម៉ាស និងសំទុះ (F = m × a)</p>
+    </section>
+
+    <!-- ផ្ទាំង AI Chatbot -->
+    <section class="chat-section">
+      <h3>ជំនួយការ AI រូបវិទ្យា (Gemini)</h3>
+      <input type="password" id="apiKey" placeholder="បញ្ចូល Gemini API Key របស់អ្នក...">
+      <div id="chatBox" class="chat-box"></div>
+      <div class="input-group">
+        <input type="text" id="userInput" placeholder="សួរសំណួររូបវិទ្យានៅទីនេះ...">
+        <button onclick="askGemini()">ផ្ញើ</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
